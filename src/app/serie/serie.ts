@@ -19,9 +19,4 @@ export class Serie {
         this.webpage = webpage;
         this.poster = poster;
     }
-
-    private series: Array<Serie>;
-        getSerieList(): Array<Serie> {
-        return dataSeries;
-    }
 }
