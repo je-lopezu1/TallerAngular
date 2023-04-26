@@ -11,9 +11,9 @@ import { SerieModule } from './serie/serie.module';
     AppComponent
   ],
   imports: [
-    SerieModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SerieModule
   ],
   providers: [],
   bootstrap: [AppComponent]
